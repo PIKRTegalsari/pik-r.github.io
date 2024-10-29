@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- AOS -->
+    <link
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+      integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+      crossorigin="anonymous"
+    />
+
+    <!-- My CSS -->
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+
+    <title>PIK-R | KECAMATAN TEGALSARI</title>
+  </head>
+  <body id="beranda">
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top"
+      style="background-color: #bb1b23; color: white"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="index.html"
+          >PIK-R | KECAMATAN TEGALSARI</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="index.html#about"
+                >Tentang Kami</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="index.html#materi"
+                >Materi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="index.html#contact"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >Pendaftaran Konselor & Konseling</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="konselor.html"
+                    >Pendaftaran Konselor</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="konseling.html"
+                    >Pendaftaran Konseling</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Jumbotron -->
+    <section
+      id="isimateri"
+      class="jumbotron text-center img-fluid mb-0"
+    >
+      <img
+        src="img/materi/m1c.png"
+        width="1000"
+        height="500"
+      />
+      <br />
+      <br />
+      <h1 class="display-4">MATERI 1</h1>
+      <h2 data-aos="fade-left">Komunikasi efektif & percaya diri</h2>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ffffff"
+          fill-opacity="10"
+          d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,80C672,64,768,64,864,96C960,128,1056,192,1152,186.7C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!--Akhir Jumbotron-->
+    <section id="quotes">
+      <div
+        class="quote-container"
+        data-aos="fade-up"
+      >
+        <div class="quote-icon">&ldquo;</div>
+        <p>"To effectively communicate, we must realize that we are all different in the way we perceive the world and use this understanding as a guide to our communication with others."</p>
+        <div class="translation">"Untuk berkomunikasi secara efektif, kita harus menyadari bahwa setiap orang berbeda dalam memandang dunia, dan gunakan pemahaman ini sebagai panduan dalam berkomunikasi."</div>
+        <div class="author">- Tony Robbins</div>
+      </div>
+    </section>
+    <!--Isi Materi-->
+    <section id="allmateri">
+      <div
+        class="container"
+        data-aos="fade-down"
+      >
+        <div class="row mb-1">
+          <div class="col text-center">
+            <h3>Komunikasi Efektif ? Gampang(¬‿¬)</h3>
+            <p>
+              Siapa yang pernah merasa kalau ngobrol sama orang tua atau teman itu susah? Terkadang, pesan yang ingin kita sampaikan malah “nyasar” atau justru bikin salah paham. Tenang, kamu nggak sendirian! Di sini, kita bakal belajar
+              tentang pentingnya komunikasi efektif—yaitu cara berkomunikasi yang nggak hanya sampai di telinga orang lain tapi juga di hati mereka.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ffea94"
+          fill-opacity="1"
+          d="M0,64L34.3,64C68.6,64,137,64,206,85.3C274.3,107,343,149,411,144C480,139,549,85,617,64C685.7,43,754,53,823,80C891.4,107,960,149,1029,149.3C1097.1,149,1166,107,1234,106.7C1302.9,107,1371,149,1406,170.7L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <section id="atas">
+      <div class="container">
+        <div class="row mb-3">
+          <div
+            class="col-md-6 text-center col align-self-start mb-3"
+            data-aos="fade-right"
+          >
+            <h3>Apa Sih, Rahasia Komunikasi Efektif ?</h3>
+            <p>
+              Komunikasi efektif sebenarnya simpel: mendengar, empati, dan memahami. Ketiga hal ini bikin percakapan lebih cair dan pesan kita lebih mudah diterima. Coba deh, bayangkan kalau lagi ngobrol sama teman, terus dia benar-benar
+              mendengarkan tanpa main hape. Rasanya beda, kan? Nah, itulah dampak dari komunikasi efektif.
+            </p>
+          </div>
+          <div
+            class="col-md-6 text-center"
+            data-aos="fade-right"
+          >
+            <img
+              src="img/materi/m1a.png"
+              alt="PIKR"
+            />
+          </div>
+        </div>
+        <br />
+        <div class="row mb-5 mt-5">
+          <div
+            class="col-md-6 text-center"
+            data-aos="fade-right"
+          >
+            <img
+              src="img/materi/m1f.png"
+              class="img-fluid"
+              alt="GIF"
+            />
+          </div>
+          <div
+            class="col-md-6"
+            data-aos="fade-left"
+          >
+            <h3>Hambatan Komunikasi, atau “Sering Salah Paham”</h3>
+            <p>
+              Komunikasi nggak selalu mulus, apalagi kalau ada perbedaan perspektif. Misalnya, remaja sering merasa orang tua “nggak ngerti” mereka, dan orang tua merasa anaknya “nggak mau denger”. Ini sering jadi hambatan besar, tapi bisa
+              diatasi dengan komunikasi yang terbuka dan tanpa drama. Ingat, kuncinya adalah jangan langsung merasa tersinggung, tapi coba pahami dulu.
+            </p>
+          </div>
+        </div>
+        <br />
+        <div
+          class="row mb-3 mt-5"
+          data-aos="fade-up"
+        >
+          <div class="col-md-6">
+            <h3>Contoh Seru: Menghadapi Tekanan Akademik</h3>
+            <p>
+              Bayangin kamu lagi stres banget gara-gara ujian, dan orang tua bilang, “Belajar yang rajin, ya.” Padahal kamu udah berusaha banget! Nah, daripada marah-marah, cobalah untuk menjelaskan perasaan kamu secara tenang, “Aku udah
+              belajar, tapi masih khawatir nggak bisa maksimal.” Dengan cara ini, mereka juga bakal ngerti lebih dalam perasaan kamu.
+            </p>
+          </div>
+          <div
+            class="col-md-6 text-center"
+            data-aos="fade-down"
+          >
+            <img
+              src="img/materi/m1d.png"
+              class="img-fluid"
+              alt="GIF"
+            />
+          </div>
+        </div>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,160L24,149.3C48,139,96,117,144,133.3C192,149,240,203,288,224C336,245,384,235,432,213.3C480,192,528,160,576,165.3C624,171,672,213,720,224C768,235,816,213,864,181.3C912,149,960,107,1008,85.3C1056,64,1104,64,1152,80C1200,96,1248,128,1296,149.3C1344,171,1392,181,1416,186.7L1440,192L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <section id="quotes">
+      <div
+        class="quote-container"
+        data-aos="fade-up"
+      >
+        <div class="quote-icon">&ldquo;</div>
+        <p>"If you hear a voice within you say ‘you cannot paint,’ then by all means paint, and that voice will be silenced."</p>
+        <div class="translation">"Jika kamu mendengar suara dalam diri berkata ‘kamu tidak bisa melukis,’ maka lukislah, dan suara itu akan diam."</div>
+        <div class="author">- Vincent van Gogh</div>
+      </div>
+    </section>
+    <section id="allmateri">
+      <div
+        class="container"
+        data-aos="fade-down"
+      >
+        <div class="row mb-1">
+          <div class="col text-center">
+            <h3>Kenapa Percaya Diri Penting?</h3>
+            <p>
+              Percaya diri itu bukan cuma buat yang mau jadi influencer, lho. Buat kita semua, punya rasa percaya diri penting banget karena bikin kita berani jadi diri sendiri dan nggak mudah goyah sama omongan orang lain. Lagian, remaja
+              yang percaya diri cenderung lebih berani ngomong jujur dan lebih siap mengambil keputusan—jauh dari drama ketidakyakinan yang bikin nggak tenang.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ffea94"
+          fill-opacity="1"
+          d="M0,64L34.3,64C68.6,64,137,64,206,85.3C274.3,107,343,149,411,144C480,139,549,85,617,64C685.7,43,754,53,823,80C891.4,107,960,149,1029,149.3C1097.1,149,1166,107,1234,106.7C1302.9,107,1371,149,1406,170.7L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <section id="atas">
+      <div class="container">
+        <div class="row mb-3">
+          <div
+            class="col-md-6 text-center col align-self-start mb-3"
+            data-aos="fade-right"
+          >
+            <h3>Tips Menumbuhkan Percaya Diri ala Superhero</h3>
+            <p>1. Fokus ke Keunggulan Diri: Punya bakat nulis? Fokus aja di situ. Jangan malah minder karena “nggak bisa main basket kayak si X.”</p>
+            <p>2. Kelola Rasa Takut: Rasa takut gagal itu wajar, tapi jangan sampai menguasai pikiran kamu, ya. Setiap kali ragu, bayangkan diri kamu lagi melangkah ke depan walaupun dengan sedikit keraguan.</p>
+            <p>3. Cari Dukungan Positif: Teman yang baik akan mendukung kamu jadi versi terbaik dari dirimu. Jadi, pilih lingkungan yang bikin kamu nyaman dan makin pede.</p>
+          </div>
+          <div
+            class="col-md-6 text-center"
+            data-aos="fade-left"
+          >
+            <img
+              src="img/materi/m1e.png"
+              alt="PIKR"
+            />
+          </div>
+        </div>
+        <br />
+        <div class="row mb-5 mt-5">
+          <div
+            class="col-md-6 text-center"
+            data-aos="fade-right"
+          >
+            <img
+              src="img/materi/m1b.gif"
+              class="img-fluid"
+              alt="GIF"
+            />
+          </div>
+          <div
+            class="col-md-6"
+            data-aos="fade-left"
+          >
+            <h3>Pesan untuk Orang Terdekat: Peran Mereka Juga Penting</h3>
+            <p>
+              Percaya diri remaja juga dibentuk dari hubungan mereka dengan keluarga dan teman. Orang tua, misalnya, bisa lebih banyak mendengarkan tanpa terlalu mengontrol. Ini bikin remaja merasa lebih “dipercaya” dan bukan sekadar
+              “dikontrol.”
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,160L24,149.3C48,139,96,117,144,133.3C192,149,240,203,288,224C336,245,384,235,432,213.3C480,192,528,160,576,165.3C624,171,672,213,720,224C768,235,816,213,864,181.3C912,149,960,107,1008,85.3C1056,64,1104,64,1152,80C1200,96,1248,128,1296,149.3C1344,171,1392,181,1416,186.7L1440,192L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <section>
+      <div class="container">
+        <div
+          class="row mb-5"
+          data-aos="zoom-in"
+        >
+          <div class="col text-center">
+            <h3>Kesimpulan yang Serius, tapi Nggak Serius-Serius Amat</h3>
+            <p>
+              Komunikasi efektif dan percaya diri adalah kunci penting buat remaja. Bayangin aja, dengan keduanya, kamu bisa ngobrol tanpa drama, bisa curhat tanpa takut disalahpahami, dan bisa lebih nyaman jadi diri sendiri. Jadi, yuk
+              mulai komunikasi yang asik dan tingkatkan kepercayaan diri biar siap menghadapi masa depan.
+            </p>
+          </div>
+        </div>
+        <!--download ppt-->
+        <div>
+          <div
+            class="row mb-3"
+            data-aos="fade-up"
+          >
+            <div class="col align-items-center mb-3">
+              <h2>Download materi ini secara gratis</h2>
+            </div>
+            <div class="row mb-3">
+              <div class="col align-self-center mb-3">
+                <!-- Tautan unduhan dengan tombol 3D -->
+                <a
+                  href="ppt/materi1.pptx"
+                  download
+                  class="btn download-btn"
+                  style="background-color: #bb1b23"
+                >
+                  <i class="bi bi-download"></i> Download Presentasi PPT
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--akhir-->
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#bb1b23"
+          fill-opacity="10"
+          d="M0,128L20,117.3C40,107,80,85,120,85.3C160,85,200,107,240,128C280,149,320,171,360,176C400,181,440,171,480,149.3C520,128,560,96,600,101.3C640,107,680,149,720,170.7C760,192,800,192,840,197.3C880,203,920,213,960,224C1000,235,1040,245,1080,218.7C1120,192,1160,128,1200,112C1240,96,1280,128,1320,122.7C1360,117,1400,75,1420,53.3L1440,32L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Contact -->
+    <!--footer-->
+    <footer
+      class="text-white text-center py-4"
+      style="background-color: #bb1b23"
+    >
+      <div class="container">
+        <!-- Row untuk Instagram, Alamat, dan WhatsApp -->
+        <div class="row mb-3">
+          <!-- Kolom Instagram -->
+          <div class="col-md-4 mb-3 mb-md-0">
+            <a
+              href="https://www.instagram.com/pik.r_tegalsari/"
+              target="_blank"
+              style="text-decoration: none; color: white"
+            >
+              <i class="fab fa-instagram"></i> PIK-R KECAMATAN TEGALSARI
+            </a>
+          </div>
+
+          <!-- Kolom Alamat Google Maps -->
+          <div class="col-md-4 mb-3 mb-md-0">
+            <a
+              href="https://maps.app.goo.gl/uGo39tAntvLLsL1M7"
+              target="_blank"
+              style="text-decoration: none; color: white"
+            >
+              <i class="fas fa-map-marker-alt"></i> Jl. Tanggulangin No.12, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60265
+            </a>
+          </div>
+
+          <!-- Kolom WhatsApp Contact -->
+          <div class="col-md-4">
+            <div class="d-flex flex-column">
+              <a
+                href="https://wa.me/6285328154771"
+                target="_blank"
+                style="text-decoration: none; color: white"
+              >
+                <i class="fab fa-whatsapp"></i> MAS JOEVAN
+              </a>
+              <a
+                href="https://wa.me/6282230485780"
+                target="_blank"
+                style="text-decoration: none; color: white"
+              >
+                <i class="fab fa-whatsapp"></i> MBAK HILDA
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row untuk "Created with love" -->
+        <div class="row">
+          <div class="col">
+            <p class="mb-0">
+              Created with <i class="bi bi-heart-fill text-danger"></i> by
+              <a
+                href="https://www.instagram.com/pik.r_tegalsari/"
+                class="text-white fw-bold"
+                style="text-decoration: none"
+                >PIK-R KECAMATAN TEGALSARI</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+
+    <script src="script.js"></script>
+
+    <script
+      type="text/javascript"
+      src="js/vanilla-tilt.min.js"
+    ></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".project"), {
+        max: 35,
+        speed: 1000,
+        glare: true,
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- AOS -->
+    <link
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+      integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+      crossorigin="anonymous"
+    />
+
+    <!-- My CSS -->
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+
+    <title>PIK-R | KECAMATAN TEGALSARI</title>
+  </head>
+  <body id="pberanda">
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top"
+      style="background-color: #bb1b23; color: white"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="#"
+          >PIK-R | KECAMATAN TEGALSARI</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html#beranda"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="index.html#about"
+                >Tentang Kami</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="index.html#materi"
+                >Materi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="index.html#contact"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >Pendaftaran Konselor & Konseling</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="konselor.html"
+                    >Pendaftaran Konselor</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="konseling.html"
+                    >Pendaftaran Konseling</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Slideshow -->
+    <div
+      id="slideshow"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="helios.html"
+            ><img
+              src="slide/slide1.png"
+              class="d-block w-100"
+              alt="School 1"
+          /></a>
+        </div>
+        <div class="carousel-item">
+          <a href="kera.html"
+            ><img
+              src="slide/slide2.png"
+              class="d-block w-100"
+              alt="School 2"
+          /></a>
+        </div>
+        <div class="carousel-item">
+          <a href="soth.html"
+            ><img
+              src="slide/slide3.png"
+              class="d-block w-100"
+              alt="School 3"
+          /></a>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#slideshow"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#slideshow"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Akhir Slideshow -->
+
+    <!-- Project Title -->
+    <section style="background-color: #ffea94">
+      <div class="container my-4 mb-4 text-center">
+        <h1 class="display-4">PROJECT | HELIOS</h1>
+        <p>"UNITY IN DIVERSITY"</p>
+        <img
+          src="img/helios.png"
+          alt="PIKR"
+          width="200"
+          class="rounded-circle img-thumbnail"
+          style="border-color: black !important"
+        />
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,192L48,186.7C96,181,192,171,288,138.7C384,107,480,53,576,69.3C672,85,768,171,864,213.3C960,256,1056,256,1152,245.3C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3 mt-2">
+          <div
+            class="col"
+            data-aos="fade-down"
+          >
+            <h2>Tentang HELIOS</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div
+            class="col-md-4"
+            data-aos="fade-right"
+          >
+            <p>
+              HELIOS adalah program dari Pusat Informasi Konseling Remaja (PIK-R) Kecamatan Tegalsari, Surabaya, yang bertujuan memberikan dukungan dan konseling bagi remaja. Kami menciptakan lingkungan aman bagi remaja untuk berbagi
+              permasalahan dan belajar mengendalikan diri.
+            </p>
+          </div>
+          <div
+            class="col-md-4"
+            data-aos="fade-right"
+          >
+            <p>
+              Dengan melibatkan keluarga, sekolah, dan masyarakat, HELIOS berkomitmen membantu remaja mengatasi tantangan seperti penyalahgunaan narkoba dan perilaku negatif lainnya. Melalui konseling sebaya, sosialisasi, dan kolaborasi
+              dengan tenaga ahli, kami mendukung pengembangan karakter dan nilai positif, dengan harapan mempersiapkan masa depan yang lebih baik untuk generasi muda Indonesia.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ffea94"
+          fill-opacity="1"
+          d="M0,160L24,181.3C48,203,96,245,144,234.7C192,224,240,160,288,128C336,96,384,96,432,106.7C480,117,528,139,576,154.7C624,171,672,181,720,181.3C768,181,816,171,864,149.3C912,128,960,96,1008,85.3C1056,75,1104,85,1152,106.7C1200,128,1248,160,1296,165.3C1344,171,1392,149,1416,138.7L1440,128L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Reason -->
+    <section
+      id="reason"
+      style="background-color: #ffea94"
+    >
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div
+            class="col"
+            data-aos="fade-down"
+          >
+            <h2>Kenapa HELIOS ada ?</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div
+            class="col"
+            data-aos="fade-right"
+          >
+            <p>
+              HELIOS hadir sebagai solusi bagi remaja di Kecamatan Tegalsari, Surabaya, untuk menghadapi tantangan kenakalan remaja yang semakin meningkat. Kami menyediakan ruang aman bagi mereka untuk berbagi permasalahan dengan teman
+              sebaya, dengan pendekatan holistik yang melibatkan keluarga, sekolah, dan masyarakat. Program ini bertujuan membantu remaja belajar mengendalikan diri, merencanakan masa depan yang lebih baik, dan menurunkan angka kenakalan.
+              Melalui HELIOS, kami berkomitmen untuk mendukung generasi muda menemukan arah dan harapan dalam hidup mereka.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,288L40,256C80,224,160,160,240,144C320,128,400,160,480,197.3C560,235,640,277,720,282.7C800,288,880,256,960,218.7C1040,181,1120,139,1200,133.3C1280,128,1360,160,1400,176L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Project Title -->
+    <div class="container my-4 text-center">
+      <h2 class="reveal pop-up">Sekolah yang terafiliasi dengan HELIOS</h2>
+    </div>
+
+    <section>
+      <!-- Sekolah Articles Section -->
+      <div class="container my-5">
+        <div
+          class="row mb-3 animate"
+          data-direction="left"
+        >
+          <div class="col-md-6 text-center col align-self-start mb-3">
+            <h3>SMPN 10 Surabaya</h3>
+            <p>
+              SMP Negeri 10 Surabaya, merupakan salah satu Sekolah Menengah Pertama Negeri yang ada di Provinsi Jawa Timur, Indonesia. Sama dengan SMP pada umumnya di Indonesia masa pendidikan sekolah di SMP Negeri 10 Surabaya ditempuh
+              dalam waktu tiga tahun pelajaran, mulai dari Kelas VII sampai Kelas IX. Sekolah ini berada di Kecamatan Tegalsari, Kota Surabaya.
+            </p>
+          </div>
+          <div class="col-md-6 col align-self-end mb-3">
+            <img
+              src="img/dokumentasi1.jpg"
+              alt="School 1"
+              style="width: auto; height: auto; max-width: 100%"
+            />
+          </div>
+        </div>
+        <br />
+        <div
+          class="row mb-3 mt-5 animate"
+          data-direction="right"
+        >
+          <div class="col-md-6 text-center">
+            <img
+              src="img/sklh2.png"
+              class="img-fluid"
+              alt="School 2"
+            />
+          </div>
+          <div class="col-md-6">
+            <h3>SDN Dr. Soetomo 1</h3>
+            <p>
+              SDN DR. SUTOMO I/323 adalah sebuah sekolah dasar negeri yang terletak di JL. KUPANG SEGUNTING III/12A, Kelurahan DR. SOETOMO, Kecamatan Tegalsari, Surabaya, dengan kode pos 60264. Sekolah ini memiliki NPSN 20539095 dan telah
+              meraih akreditasi A, menandakan standar pendidikan yang tinggi. Didirikan pada tanggal 10 Oktober 1951, SDN DR. SUTOMO I/323 dipimpin oleh Kepala Sekolah Samsul Hidayah, yang berkomitmen untuk menciptakan lingkungan belajar
+              yang inovatif dan berkualitas. Sekolah ini dapat dihubungi melalui telepon di 5667357 dan memiliki website resmi di <a href="sdndrsutomo1.blogspot.com">SDN DR. SUTOMO 1</a> yang menyediakan informasi lebih lanjut mengenai
+              kegiatan dan program sekolah.
+            </p>
+          </div>
+        </div>
+        <br />
+        <div
+          class="row mb-3 animate"
+          data-direction="left"
+        >
+          <div class="col-md-6 text-center col align-self-start mb-3">
+            <h3>SDN Dr. Soetomo 5</h3>
+            <p>
+              SDN DR SUTOMO V/327 Surabaya adalah sebuah sekolah dasar negeri yang berlokasi di Jl. Trunojoyo 84, Tegalsari, Surabaya 60264. Dengan Nomor Sekolah Standar (NSS) 101056003025, sekolah ini telah mendapatkan akreditasi A,
+              menunjukkan kualitas pendidikan yang tinggi. Saat ini, kepala sekolahnya adalah Rita Erwiyah, S.Pd., M.Pd., yang memimpin dengan komitmen untuk menciptakan lingkungan belajar yang positif dan inovatif. Sekolah ini juga dapat
+              dihubungi melalui telepon di (031) 5667284 dan fax di nomor yang sama, memberikan kemudahan bagi orang tua dan masyarakat untuk berkomunikasi.
+            </p>
+          </div>
+          <div class="col-md-6 col align-self-end mb-3">
+            <img
+              src="img/sklh3.png"
+              alt="School 3"
+            />
+          </div>
+        </div>
+        <br />
+        <div
+          class="row mb-3 mt-5 animate"
+          data-direction="right"
+        >
+          <div class="col-md-6 text-center">
+            <img
+              src="img/sklh4.png"
+              class="img-fluid"
+              alt="School 4"
+            />
+          </div>
+          <div class="col-md-6">
+            <h3>MIS Mabadie Khoiri Ummah</h3>
+            <p>MIS Mabadie Khoiri Ummah adalah sebuah institusi pendidikan Madrasah Ibtidaiyah swasta yang yang lokasinya berada di Jl.keputran V/25 Surabaya, Kota Surabaya.</p>
+          </div>
+        </div>
+        <br />
+        <div
+          class="row mb-3 animate"
+          data-direction="left"
+        >
+          <div class="col-md-6 text-center col align-self-start mb-3">
+            <h3>SMP Santa Katarina</h3>
+            <p>
+              SMP Santa Katarina didirikan oleh Romo Drs. YH.Purwoputranto, Pr pada tanggal 1 Januari 1968 di bawah naungan yayasan Yohannes Gabriel. Latar belakang didirikannya sekolah ini adalah dengan tujuan untuk menampung anak-anak
+              Katolik di sekitar sekolah. Pada awalnya didirikannya sekolah, kegiatan belajar mengajar berlangsung pada siang hari karena para siswa harus bekerja membantu orang tua pada pagi hari. Kemudian mulai tahun 1990 hingga sekarang,
+              SMPK Katarina menerapkan sekolah pagi seperti sekolah pada umumnya.
+            </p>
+          </div>
+          <div class="col-md-6 col align-self-end mb-3">
+            <img
+              src="img/sklh5.png"
+              alt="School 5"
+            />
+          </div>
+        </div>
+        <br />
+        <div
+          class="row mb-3 mt-5 animate"
+          data-direction="right"
+        >
+          <div class="col-md-6 text-center">
+            <img
+              src="img/sklh6.png"
+              class="img-fluid"
+              alt="School 6"
+            />
+          </div>
+          <div class="col-md-6">
+            <h3>SMP Katolik Santa Maria</h3>
+            <p>
+              SMP Santa Maria Surabaya menyelenggarakan Pendidikan yang mengembangkan kemampuan akademik, karakter, keterampilan dan kepemimpinan yang terintegrasi dalam proses pembelajaran maupun dalam kegiatan-kegiatan. Menjadi pemimpin
+              yang melayani adalah tujuan yang akan dicapai dalam proses pembelajaran di dalam kelas maupun di luar kelas, baik intrakurikuler maupun ekstrakurikuler. SMP Santa Maria memberikan pendampingan lewat “personal touch” yang
+              didasari oleh kasih yang mampu membawa siswa-siswi untuk bertumbuh dan berkembang secara optimal. Para siswa mampu mengembangkan core value yang ditanamkan untuk menjawab tantangan zaman dalam masyarakat.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ffea94"
+          fill-opacity="1"
+          d="M0,192L40,181.3C80,171,160,149,240,160C320,171,400,213,480,218.7C560,224,640,192,720,170.7C800,149,880,139,960,144C1040,149,1120,171,1200,186.7C1280,203,1360,213,1400,218.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Dokumentasi Kegiatan Helios -->
+    <section
+      id="galeri"
+      style="background-color: #ffea94; padding: 20px 0; width: 100vw; margin-left: calc((100vw - 100%) / -2)"
+    >
+      <h3 class="text-center">Dokumentasi Kegiatan Helios</h3>
+      <!-- 5 rows for gallery -->
+      <div class="container">
+        <div class="row mt-4">
+          <div class="col-md-3">
+            <div
+              class="card img-card"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal1"
+            >
+              <img
+                src="img/dokumentasi1.jpg"
+                class="img-fluid"
+                alt="Kegiatan 1"
+              />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="card img-card"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal2"
+            >
+              <img
+                src="img/dokumentasi2.jpg"
+                class="img-fluid"
+                alt="Kegiatan 2"
+              />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="card img-card"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal3"
+            >
+              <img
+                src="img/dokumentasi3.jpg"
+                class="img-fluid"
+                alt="Kegiatan 3"
+              />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="card img-card"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal4"
+            >
+              <img
+                src="img/dokumentasi4.jpg"
+                class="img-fluid"
+                alt="Kegiatan 4"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Additional rows can be repeated here -->
+      </div>
+    </section>
+
+    <!-- Modal Pop-up for Gallery -->
+    <div
+      class="modal fade"
+      id="exampleModal1"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5
+              class="modal-title"
+              id="exampleModalLabel"
+            >
+              Kegiatan 1
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="img/dokumentasi1.jpg"
+              class="img-fluid"
+              alt="Kegiatan 1"
+            />
+            <p>Lokasi: Helios School<br />Tanggal: 12 Oktober 2024<br />Deskripsi: Kegiatan 1 bertujuan untuk mendukung pendidikan anak-anak.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Additional modals for other images -->
+
+    <!--footer-->
+    <footer
+      class="text-white text-center py-4"
+      style="background-color: #bb1b23"
+    >
+      <div class="container">
+        <!-- Row untuk Instagram, Alamat, dan WhatsApp -->
+        <div class="row mb-3">
+          <!-- Kolom Instagram -->
+          <div class="col-md-4 mb-3 mb-md-0">
+            <a
+              href="https://www.instagram.com/pik.r_tegalsari/"
+              target="_blank"
+              style="text-decoration: none; color: white"
+            >
+              <i class="fab fa-instagram"></i> PIK-R KECAMATAN TEGALSARI
+            </a>
+          </div>
+
+          <!-- Kolom Alamat Google Maps -->
+          <div class="col-md-4 mb-3 mb-md-0">
+            <a
+              href="https://maps.app.goo.gl/uGo39tAntvLLsL1M7"
+              target="_blank"
+              style="text-decoration: none; color: white"
+            >
+              <i class="fas fa-map-marker-alt"></i> Jl. Tanggulangin No.12, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60265
+            </a>
+          </div>
+
+          <!-- Kolom WhatsApp Contact -->
+          <div class="col-md-4">
+            <div class="d-flex flex-column">
+              <a
+                href="https://wa.me/6285328154771"
+                target="_blank"
+                style="text-decoration: none; color: white"
+              >
+                <i class="fab fa-whatsapp"></i> MAS JOEVAN
+              </a>
+              <a
+                href="https://wa.me/6282230485780"
+                target="_blank"
+                style="text-decoration: none; color: white"
+              >
+                <i class="fab fa-whatsapp"></i> MBAK HILDA
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row untuk "Created with love" -->
+        <div class="row">
+          <div class="col">
+            <p class="mb-0">
+              Created with <i class="bi bi-heart-fill text-danger"></i> by
+              <a
+                href="https://www.instagram.com/pik.r_tegalsari/"
+                class="text-white fw-bold"
+                style="text-decoration: none"
+                >PIK-R KECAMATAN TEGALSARI</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script>
+      // Scroll animation for revealing articles
+      function revealOnScroll() {
+        var reveals = document.querySelectorAll(".reveal, .pop-up");
+
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 150;
+
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+
+      window.addEventListener("scroll", revealOnScroll);
+
+      // Trigger the reveal function on page load
+      revealOnScroll();
+    </script>
+    <script>
+      // JavaScript for handling animations
+      document.addEventListener("DOMContentLoaded", function () {
+        const observerOptions = {
+          threshold: 0.1,
+        };
+
+        const observer = new IntersectionObserver(function (entries, observer) {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("active");
+              observer.unobserve(entry.target);
+            }
+          });
+        }, observerOptions);
+
+        // Select all elements to animate
+        const animElements = document.querySelectorAll(".animate");
+        animElements.forEach((el) => {
+          observer.observe(el);
+        });
+
+        // Optional: add more interactions or animations to other parts of the page
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+    <script
+      type="text/javascript"
+      src="js/vanilla-tilt.min.js"
+    ></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".project"), {
+        max: 35,
+        speed: 1000,
+        glare: true,
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

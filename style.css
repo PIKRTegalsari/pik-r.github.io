@@ -1,0 +1,339 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #ffea94;
+}
+
+#materi {
+  background-color: #ffea94;
+}
+
+#atas {
+  background-color: #ffea94;
+}
+
+#isimateri {
+  padding-top: 6rem;
+  background-color: #ffea94;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+/* My project Section */
+.project {
+  position: relative;
+  background-color: #a01913;
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.project::before {
+  content: "PROJECT";
+  position: absolute;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project:hover::before {
+  opacity: 0.2;
+}
+
+.project::after {
+  content: "PIK-R";
+  position: absolute;
+  color: #fff;
+  font-size: 4.3em;
+  font-weight: bold;
+  font-style: italic;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project:hover::after {
+  opacity: 0.2;
+}
+
+.nama-materi {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+
+.project:hover .nama-materi {
+  top: 20px;
+  opacity: 1;
+}
+
+.keyboard-detail-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 100px);
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.project:hover .keyboard-detail-button {
+  opacity: 1;
+  bottom: 20px;
+}
+
+.keyboard-img {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate3d(-50%, -52%, 80px);
+  max-width: 350px;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.project:hover .keyboard-img {
+  transform: translate3d(-50%, -52%, 100px) rotate(5deg) scale(1.2);
+}
+
+.dropdown-menu {
+  background-color: transparent; /* Menjadikan background dropdown transparan */
+  border: none; /* Hilangkan border dropdown agar lebih clean */
+}
+
+/* Warna teks dan latar belakang item dropdown saat dihover */
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: rgba(0, 123, 255, 0.3); /* Transparan dengan warna biru saat hover */
+  color: black; /* Warna teks saat di-hover */
+}
+
+.dropdown-item:active {
+  background-color: rgba(0, 123, 255, 0.6); /* Lebih gelap saat ditekan */
+  color: white; /* Warna teks saat ditekan */
+}
+
+.input-rgb {
+  border: 2px solid black; /* Border default berwarna hitam */
+  border-radius: 5px; /* Sudut melengkung */
+  outline: none; /* Menghapus outline default */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Transisi untuk perubahan latar belakang dan border */
+}
+
+/* Efek RGB saat kursor diarahkan atau elemen difokuskan */
+.input-rgb:hover,
+.input-rgb:focus {
+  animation: rgb-border 2s infinite; /* Animasi RGB */
+  background-color: rgba(255, 255, 255, 0.1); /* Efek transparan pada background */
+}
+
+/* Animasi RGB untuk border */
+@keyframes rgb-border {
+  0% {
+    border-color: rgb(255, 0, 0); /* Merah */
+  }
+  33% {
+    border-color: rgb(0, 255, 0); /* Hijau */
+  }
+  66% {
+    border-color: rgb(0, 0, 255); /* Biru */
+  }
+  100% {
+    border-color: rgb(255, 0, 0); /* Kembali ke Merah */
+  }
+}
+
+.download-btn {
+  font-size: 20px;
+  color: white;
+  background-color: #007bff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3); /* Efek bayangan 3D */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasi halus */
+}
+
+/* Hover untuk efek 3D lebih menonjol */
+.download-btn:hover {
+  transform: translateY(-5px); /* Membuat tombol seolah terangkat */
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.5); /* Bayangan lebih kuat saat hover */
+}
+
+/* Centering tombol di halaman */
+.center-container {
+  height: 100vh; /* Tinggi penuh halaman */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ensure slide sticks to navbar */
+#pberanda {
+  padding-top: 56px; /* Adjust according to navbar height */
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Full width carousel and pop-up effect */
+.carousel-item img {
+  width: 100%; /* Lebar penuh dari kanan ke kiri */
+  height: 500px; /* Tetapkan tinggi yang konsisten untuk gambar */
+  object-fit: cover; /* Pastikan gambar menutupi area tanpa terdistorsi */
+  border-radius: 10px; /* Sudut yang membulat agar lebih elegan */
+  transition: transform 0.5s ease, box-shadow 0.5s ease; /* Transisi yang halus */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Bayangan lembut untuk kesan profesional */
+}
+
+/* Efek saat gambar di-hover */
+.carousel-item img:hover {
+  transform: scale(1.05); /* Zoom in sedikit saat hover */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* Bayangan lebih besar saat hover */
+}
+
+/* Carousel indicators styling for professional look */
+.carousel-indicators li {
+  background-color: #000; /* Indikator hitam untuk tampilan yang kontras dan profesional */
+}
+
+/* Caption styling */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6); /* Background transparan pada teks */
+  padding: 15px; /* Ruang yang cukup untuk teks agar mudah dibaca */
+  border-radius: 5px; /* Sedikit melengkung untuk tampilan modern */
+  color: #fff; /* Teks putih agar kontras dengan background gelap */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 300px; /* Kecilkan ukuran gambar pada layar lebih kecil agar tetap rapi */
+  }
+}
+
+/* Style for images and pop-up */
+.img-card {
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 15px; /* Rounded corners */
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.img-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Pop-up effect */
+}
+
+/* Initial state of elements for animation */
+.animate {
+  opacity: 0;
+  transform: translateX(100px); /* default: coming from the right */
+  transition: transform 0.8s ease, opacity 0.8s ease;
+}
+
+[data-direction="left"] {
+  transform: translateX(-100px); /* coming from the left */
+}
+
+/* Active state when element comes into view */
+.animate.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Gallery pop-up */
+.modal-body img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* School articles layout */
+.school-article {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.school-article.left img {
+  order: 1;
+}
+
+.school-article.right img {
+  order: 2;
+}
+
+/* Pop-up effect for about and reason */
+.pop-up {
+  transform: scale(0.8);
+  transition: transform 0.8s ease, opacity 0.8s ease;
+}
+
+.pop-up.active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+#quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f3f4f6;
+}
+
+.quote-container {
+  max-width: 700px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.quote-container p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+}
+
+.translation {
+  font-size: 1rem;
+  color: #777;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+.author {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.quote-icon {
+  font-size: 2.5rem;
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
